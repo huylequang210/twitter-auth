@@ -1,0 +1,95 @@
+p,h1,h2,h3,h4 {
+  margin: 0;
+}
+
+.login, .register, .dashboard {
+  max-width: 20rem;
+  margin: 0 auto;
+}
+
+.chatting, .comments,
+.dashboard {
+  max-width: 40rem;
+  margin: 0 auto;
+}
+
+.chatting textarea {
+   font-size: 16px;
+}
+
+.chatting .user {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.form-group input {
+  padding: 4px 6px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form .submit, .logout {
+  border: none;
+  color: white;
+  background-color: #4CAF50;
+  padding : 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 10px 0px;
+  cursor: pointer;
+}
+
+.logout {
+  background-color: #ff1212;
+  padding : 8px 12px;
+}
+
+.comments {
+  display: flex;
+  flex-direction: column;
+}
+
+.comment {
+  background-color: #e2e1fa;
+  margin: 1rem 0;
+  padding: .5rem;
+}
+
+.comment h4, .comment p {
+  margin: 0.5rem;
+}
+
+.registerLogin {
+  margin-left: 34rem;
+}
+
+.noaccount, .haveaccount {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.noaccount a,
+.haveaccount a {
+  align-self: flex-end;
+}
+
+.cautionMessage {
+  margin: 0.5rem 0;
+  color: red;
+}
+
+.comment a {
+  text-decoration: none;
+}
